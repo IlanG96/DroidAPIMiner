@@ -1,6 +1,6 @@
 Landroid/telephony/TelephonyManager.getDeviceSoftwareVersion()Ljava/lang/String;
 Ljava/lang/StringBuilder.append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-Landroid/app/Activity.onCreate(Landroid/os/Bundle;)V
+Ljava/io/File.createTempFile(Ljava/lang/String; Ljava/lang/String; Ljava/io/File;)Ljava/io/File;
 Ljava/util/ArrayList.add(Ljava/lang/Object;)Z
 Landroid/util/Log.e(Ljava/lang/String; Ljava/lang/String;)I
 Ljava/io/BufferedReader.read([C)I
@@ -74,7 +74,7 @@ Ljava/util/List.iterator()Ljava/util/Iterator;
 Landroid/content/BroadcastReceiver.<init>()V
 Landroid/content/ContentProviderOperation$Builder.build()Landroid/content/ContentProviderOperation;
 Ljava/lang/Integer.parseInt(Ljava/lang/String;)I
-Ljava/io/File.createTempFile(Ljava/lang/String; Ljava/lang/String; Ljava/io/File;)Ljava/io/File;
+Landroid/app/Activity.onCreate(Landroid/os/Bundle;)V
 Ljava/lang/StringBuffer.toString()Ljava/lang/String;
 Landroid/util/Log.i(Ljava/lang/String; Ljava/lang/String;)I
 Ljava/lang/StringBuffer.<init>()V

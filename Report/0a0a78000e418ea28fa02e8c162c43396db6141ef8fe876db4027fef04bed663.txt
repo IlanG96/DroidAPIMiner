@@ -87,6 +87,7 @@ Ljava/util/Collections.unmodifiableList(Ljava/util/List;)Ljava/util/List;
 Landroid/webkit/WebViewClient.<init>()V
 Landroid/content/UriMatcher.addURI(Ljava/lang/String; Ljava/lang/String; I)V
 Ljavax/crypto/KeyGenerator.generateKey()Ljavax/crypto/SecretKey;
+Landroid/content/SharedPreferences$Editor.putString(Ljava/lang/String; Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
 Lorg/json/JSONObject.optJSONObject(Ljava/lang/String;)Lorg/json/JSONObject;
 Ljava/lang/Integer.valueOf(Ljava/lang/String;)Ljava/lang/Integer;
 Landroid/graphics/BitmapFactory.decodeResource(Landroid/content/res/Resources; I)Landroid/graphics/Bitmap;
@@ -176,7 +177,7 @@ Landroid/view/animation/TranslateAnimation.setDuration(J)V
 Landroid/webkit/CookieSyncManager.sync()V
 Ljava/util/Locale.getDefault()Ljava/util/Locale;
 Ljava/lang/Character.charCount(I)I
-Landroid/widget/TextView.setCompoundDrawablesWithIntrinsicBounds(Landroid/graphics/drawable/Drawable; Landroid/graphics/drawable/Drawable; Landroid/graphics/drawable/Drawable; Landroid/graphics/drawable/Drawable;)V
+Landroid/database/sqlite/SQLiteDatabase.execSQL(Ljava/lang/String;)V
 Landroid/database/sqlite/SQLiteDatabase.endTransaction()V
 Ljava/util/Map.remove(Ljava/lang/Object;)Ljava/lang/Object;
 Ljava/util/ArrayList.clone()Ljava/lang/Object;
@@ -227,6 +228,7 @@ Ljava/lang/String.charAt(I)C
 Ljava/util/TreeSet.<init>()V
 Ljava/util/Iterator.remove()V
 Ljava/util/regex/Pattern.matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
+Ljava/lang/String.<init>([B)V
 Landroid/os/Bundle.getByteArray(Ljava/lang/String;)[B
 Landroid/widget/LinearLayout.setGravity(I)V
 Landroid/widget/ImageButton.setOnClickListener(Landroid/view/View$OnClickListener;)V
@@ -235,7 +237,6 @@ Ljava/lang/reflect/WildcardType.getUpperBounds()[Ljava/lang/reflect/Type;
 Landroid/webkit/WebSettings.setUserAgentString(Ljava/lang/String;)V
 Ljava/io/IOException.<init>()V
 Landroid/app/Activity.onDetachedFromWindow()V
-Landroid/widget/ViewAnimator.addView(Landroid/view/View;)V
 Landroid/widget/ListView.setDivider(Landroid/graphics/drawable/Drawable;)V
 Ljava/io/DataOutputStream.writeByte(I)V
 Ljava/util/List.get(I)Ljava/lang/Object;
@@ -276,7 +277,6 @@ Landroid/app/Dialog.setContentView(I)V
 Landroid/widget/AdapterView.getItemAtPosition(I)Ljava/lang/Object;
 Landroid/widget/RelativeLayout$LayoutParams.addRule(I)V
 Landroid/widget/Button.setTextSize(F)V
-Ljava/util/HashSet.isEmpty()Z
 Ljava/io/DataOutputStream.write([B I I)V
 Ljava/util/concurrent/Future.cancel(Z)Z
 Ljava/util/HashMap.<init>(I)V
@@ -316,11 +316,11 @@ Ljava/lang/Class.desiredAssertionStatus()Z
 Ljava/util/ArrayList.add(Ljava/lang/Object;)Z
 Ljava/lang/Class.isSynthetic()Z
 Landroid/widget/RelativeLayout.getVisibility()I
+Ljava/lang/String.indexOf(Ljava/lang/String; I)I
 Ljava/lang/Number.floatValue()F
 Ljava/nio/charset/Charset.name()Ljava/lang/String;
 Ljava/lang/String.toLowerCase(Ljava/util/Locale;)Ljava/lang/String;
 Landroid/os/Bundle.putByteArray(Ljava/lang/String; [B)V
-Landroid/os/Message.obtain()Landroid/os/Message;
 Lorg/json/JSONArray.put(Ljava/lang/Object;)Lorg/json/JSONArray;
 Landroid/app/Activity.finishActivityFromChild(Landroid/app/Activity; I)V
 Ljava/io/DataOutputStream.<init>(Ljava/io/OutputStream;)V
@@ -402,12 +402,13 @@ Ljava/util/Random.<init>()V
 Ljava/lang/String.indexOf(Ljava/lang/String;)I
 Landroid/app/AlertDialog.onCreate(Landroid/os/Bundle;)V
 Landroid/media/MediaPlayer.setDataSource(Ljava/io/FileDescriptor; J J)V
+Ljava/util/HashSet.isEmpty()Z
 Landroid/app/Activity.dispatchKeyEvent(Landroid/view/KeyEvent;)Z
 Lorg/apache/http/conn/scheme/SchemeRegistry.<init>()V
 Landroid/widget/ImageView.setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 Landroid/content/pm/PackageManager$NameNotFoundException.printStackTrace()V
 Ljava/lang/System.currentTimeMillis()J
-Landroid/content/Intent.setFlags(I)Landroid/content/Intent;
+Landroid/content/Intent.setType(Ljava/lang/String;)Landroid/content/Intent;
 Landroid/app/ProgressDialog.setMessage(Ljava/lang/CharSequence;)V
 [Lu$a.clone()Ljava/lang/Object;
 [Lorg/apache/http/entity/mime/HttpMultipartMode.clone()Ljava/lang/Object;
@@ -467,6 +468,7 @@ Ljava/util/ArrayList.listIterator()Ljava/util/ListIterator;
 Ljava/io/ByteArrayOutputStream.<init>()V
 Landroid/content/SharedPreferences.getBoolean(Ljava/lang/String; Z)Z
 Ljava/nio/ByteBuffer.duplicate()Ljava/nio/ByteBuffer;
+Landroid/os/Message.obtain()Landroid/os/Message;
 Landroid/widget/TextView.setTypeface(Landroid/graphics/Typeface;)V
 Landroid/webkit/WebSettings.setJavaScriptEnabled(Z)V
 Lorg/apache/http/conn/scheme/Scheme.<init>(Ljava/lang/String; Lorg/apache/http/conn/scheme/SocketFactory; I)V
@@ -492,6 +494,7 @@ Landroid/app/AlertDialog.onKeyDown(I Landroid/view/KeyEvent;)Z
 Ljava/util/ArrayList.contains(Ljava/lang/Object;)Z
 Landroid/database/sqlite/SQLiteDatabase.setTransactionSuccessful()V
 Ljava/lang/Double.isNaN(D)Z
+Landroid/os/Handler.post(Ljava/lang/Runnable;)Z
 Ljava/lang/Class.getModifiers()I
 Landroid/widget/TextView.<init>(Landroid/content/Context;)V
 Ljava/io/InputStream.read([B I I)I
@@ -545,7 +548,7 @@ Landroid/app/Application.getFilesDir()Ljava/io/File;
 Lorg/json/JSONObject.<init>()V
 Landroid/app/Activity.onPostResume()V
 Ljava/util/ArrayList.size()I
-Ljava/lang/String.substring(I I)Ljava/lang/String;
+Landroid/app/Activity.onPreparePanel(I Landroid/view/View; Landroid/view/Menu;)Z
 Lorg/apache/http/client/HttpClient.execute(Lorg/apache/http/client/methods/HttpUriRequest;)Lorg/apache/http/HttpResponse;
 Landroid/widget/ImageView.setId(I)V
 Ljava/util/GregorianCalendar.get(I)I
@@ -562,6 +565,7 @@ Ljava/lang/Boolean.booleanValue()Z
 Ljava/util/ArrayList.get(I)Ljava/lang/Object;
 Landroid/widget/ProgressBar.setId(I)V
 Landroid/app/Application.getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+Landroid/content/Intent.setFlags(I)Landroid/content/Intent;
 Ljava/net/HttpURLConnection.setReadTimeout(I)V
 Ljavax/crypto/Cipher.getInstance(Ljava/lang/String;)Ljavax/crypto/Cipher;
 Ljava/nio/ByteBuffer.limit()I
@@ -573,7 +577,6 @@ Ljava/lang/Class.forName(Ljava/lang/String;)Ljava/lang/Class;
 Ljava/lang/Object.toString()Ljava/lang/String;
 Landroid/widget/LinearLayout.setOrientation(I)V
 Ljava/lang/String.valueOf(F)Ljava/lang/String;
-Landroid/content/SharedPreferences$Editor.putString(Ljava/lang/String; Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
 Landroid/content/Context.registerReceiver(Landroid/content/BroadcastReceiver; Landroid/content/IntentFilter;)Landroid/content/Intent;
 Lorg/json/JSONTokener.nextValue()Ljava/lang/Object;
 Ljava/io/IOException.getMessage()Ljava/lang/String;
@@ -587,11 +590,11 @@ Ljava/io/BufferedReader.<init>(Ljava/io/Reader; I)V
 Landroid/graphics/BitmapFactory.decodeFile(Ljava/lang/String;)Landroid/graphics/Bitmap;
 Ljava/nio/channels/SocketChannel.isConnected()Z
 Ljava/io/PrintStream.print(Ljava/lang/String;)V
+Ljava/security/spec/RSAPublicKeySpec.<init>(Ljava/math/BigInteger; Ljava/math/BigInteger;)V
 Landroid/net/Uri.getAuthority()Ljava/lang/String;
 [Lcom/google/ads/AdRequest$Gender.clone()Ljava/lang/Object;
 Landroid/content/SharedPreferences$Editor.putInt(Ljava/lang/String; I)Landroid/content/SharedPreferences$Editor;
 Landroid/text/Html.fromHtml(Ljava/lang/String;)Landroid/text/Spanned;
-Ljava/util/Arrays.hashCode([Ljava/lang/Object;)I
 Ljava/lang/StringBuilder.deleteCharAt(I)Ljava/lang/StringBuilder;
 Landroid/net/Uri.getSchemeSpecificPart()Ljava/lang/String;
 Landroid/widget/ViewFlipper.startFlipping()V
@@ -615,7 +618,6 @@ Landroid/widget/RelativeLayout.setPadding(I I I I)V
 Ljavax/crypto/Cipher.getIV()[B
 Landroid/content/IntentFilter.<init>()V
 Landroid/widget/TextView.setFocusable(Z)V
-Landroid/app/Activity.onPreparePanel(I Landroid/view/View; Landroid/view/Menu;)Z
 Ljava/nio/channels/ServerSocketChannel.accept()Ljava/nio/channels/SocketChannel;
 Ljava/io/BufferedWriter.write(Ljava/lang/String;)V
 Landroid/app/Activity.dispatchTouchEvent(Landroid/view/MotionEvent;)Z
@@ -673,6 +675,7 @@ Ljava/util/LinkedList.clear()V
 Ljava/lang/Class.getGenericSuperclass()Ljava/lang/reflect/Type;
 Landroid/content/pm/PackageManager.getPackageInfo(Ljava/lang/String; I)Landroid/content/pm/PackageInfo;
 Lorg/apache/http/util/ByteArrayBuffer.append([B I I)V
+Ljava/lang/String.substring(I I)Ljava/lang/String;
 Ljava/util/LinkedHashMap.<init>(I F Z)V
 Landroid/widget/RelativeLayout.setVisibility(I)V
 Landroid/net/Uri.toString()Ljava/lang/String;
@@ -758,7 +761,6 @@ Landroid/app/Service.onDestroy()V
 Ljava/net/HttpURLConnection.setUseCaches(Z)V
 Ljava/io/Reader.close()V
 Ljava/io/OutputStream.write([B)V
-Ljava/lang/String.<init>([B)V
 Ljava/util/Map.containsKey(Ljava/lang/Object;)Z
 Ljava/lang/Character.isUpperCase(C)Z
 Ljava/lang/RuntimeException.<init>(Ljava/lang/String;)V
@@ -793,6 +795,7 @@ Ljava/lang/Float.floatValue()F
 Landroid/widget/ImageView.<init>(Landroid/content/Context; Landroid/util/AttributeSet; I)V
 Ljava/net/ServerSocket.<init>(I)V
 Landroid/app/Activity.getApplicationContext()Landroid/content/Context;
+Landroid/app/Application.getResources()Landroid/content/res/Resources;
 Landroid/view/MotionEvent.getX()F
 Landroid/widget/ImageView.<init>(Landroid/content/Context; Landroid/util/AttributeSet;)V
 Lorg/apache/http/params/HttpParams.setParameter(Ljava/lang/String; Ljava/lang/Object;)Lorg/apache/http/params/HttpParams;
@@ -804,6 +807,7 @@ Landroid/content/Intent.addCategory(Ljava/lang/String;)Landroid/content/Intent;
 Ljava/lang/Class.cast(Ljava/lang/Object;)Ljava/lang/Object;
 Lorg/json/JSONTokener.<init>(Ljava/lang/String;)V
 Ljava/text/NumberFormat.format(D)Ljava/lang/String;
+Landroid/widget/ViewAnimator.addView(Landroid/view/View;)V
 Ljava/math/BigDecimal.<init>(Ljava/lang/String;)V
 Lorg/json/JSONArray.length()I
 Ljava/util/Stack.iterator()Ljava/util/Iterator;
@@ -880,7 +884,6 @@ Ljava/lang/Enum.valueOf(Ljava/lang/Class; Ljava/lang/String;)Ljava/lang/Enum;
 Ljava/util/Map.get(Ljava/lang/Object;)Ljava/lang/Object;
 Ljava/nio/channels/ServerSocketChannel.close()V
 Ljavax/crypto/KeyGenerator.getInstance(Ljava/lang/String;)Ljavax/crypto/KeyGenerator;
-Ljava/lang/String.indexOf(Ljava/lang/String; I)I
 Landroid/os/Process.killProcess(I)V
 Ljava/util/HashMap.keySet()Ljava/util/Set;
 Ljava/lang/Thread.sleep(J)V
@@ -909,13 +912,12 @@ Landroid/widget/RelativeLayout$LayoutParams.addRule(I I)V
 [Lcom/google/gson/LongSerializationPolicy.clone()Ljava/lang/Object;
 Landroid/net/Uri.getScheme()Ljava/lang/String;
 Landroid/os/StrictMode.setThreadPolicy(Landroid/os/StrictMode$ThreadPolicy;)V
+Ljava/util/Arrays.hashCode([Ljava/lang/Object;)I
 Landroid/content/ContentValues.containsKey(Ljava/lang/String;)Z
 Ljava/lang/Error.<init>()V
-Landroid/os/Handler.post(Ljava/lang/Runnable;)Z
 Ljava/io/File.mkdirs()Z
 Ljava/util/HashMap.clone()Ljava/lang/Object;
 Ljava/lang/Double.valueOf(D)Ljava/lang/Double;
-Landroid/app/Application.getResources()Landroid/content/res/Resources;
 Ljava/io/ByteArrayInputStream.<init>([B)V
 Ljava/lang/String.indexOf(I)I
 Landroid/database/Cursor.getInt(I)I
@@ -943,7 +945,6 @@ Landroid/telephony/TelephonyManager.getDeviceId()Ljava/lang/String;
 Ljava/lang/StringBuilder.appendCodePoint(I)Ljava/lang/StringBuilder;
 Landroid/util/Log.v(Ljava/lang/String; Ljava/lang/String;)I
 Ljava/lang/String.<init>()V
-Ljava/security/spec/RSAPublicKeySpec.<init>(Ljava/math/BigInteger; Ljava/math/BigInteger;)V
 Landroid/widget/VideoView.resume()V
 Landroid/app/AlertDialog$Builder.<init>(Landroid/content/Context;)V
 Landroid/graphics/drawable/Drawable.setAlpha(I)V
@@ -968,8 +969,9 @@ Landroid/app/Dialog.onCreate(Landroid/os/Bundle;)V
 Landroid/view/Window.getWindowManager()Landroid/view/WindowManager;
 Ljava/io/DataOutputStream.close()V
 Landroid/content/pm/PackageManager.getReceiverInfo(Landroid/content/ComponentName; I)Landroid/content/pm/ActivityInfo;
+Landroid/app/ProgressDialog.<init>(Landroid/content/Context;)V
 Ljava/net/URL.<init>(Ljava/lang/String;)V
-Landroid/text/TextUtils.isEmpty(Ljava/lang/CharSequence;)Z
+Landroid/widget/ListView.setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 Landroid/widget/ListView.setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 Ljava/util/Locale.toString()Ljava/lang/String;
 Ljava/lang/StringBuilder.append(C)Ljava/lang/StringBuilder;
@@ -986,7 +988,7 @@ Ljava/io/InputStream.skip(J)J
 Ljava/util/Map$Entry.getKey()Ljava/lang/Object;
 Landroid/content/res/AssetFileDescriptor.close()V
 Landroid/view/Window.addFlags(I)V
-Ljava/lang/reflect/Field.getModifiers()I
+Ljava/util/StringTokenizer.hasMoreElements()Z
 Lorg/apache/http/entity/BufferedHttpEntity.<init>(Lorg/apache/http/HttpEntity;)V
 Landroid/app/Activity.startActivityForResult(Landroid/content/Intent; I)V
 Landroid/widget/RelativeLayout.addView(Landroid/view/View;)V
@@ -1026,13 +1028,12 @@ Ljava/lang/Integer.parseInt(Ljava/lang/String; I)I
 Ljava/util/zip/ZipEntry.getName()Ljava/lang/String;
 Ljava/security/NoSuchAlgorithmException.toString()Ljava/lang/String;
 Landroid/app/Application.onTerminate()V
-Ljava/lang/String.<init>([C I I)V
 Landroid/content/ActivityNotFoundException.getMessage()Ljava/lang/String;
 Ljava/lang/Class.isArray()Z
 Lorg/apache/http/HttpEntity.getContentLength()J
 Ljava/util/ArrayList.set(I Ljava/lang/Object;)Ljava/lang/Object;
 Landroid/os/Handler.postDelayed(Ljava/lang/Runnable; J)Z
-Ljava/util/StringTokenizer.hasMoreElements()Z
+Ljava/lang/reflect/Field.getModifiers()I
 Landroid/graphics/drawable/Drawable.createFromStream(Ljava/io/InputStream; Ljava/lang/String;)Landroid/graphics/drawable/Drawable;
 Ljava/util/List.clear()V
 Ljava/net/HttpURLConnection.connect()V
@@ -1051,6 +1052,7 @@ Ljava/io/DataInputStream.<init>(Ljava/io/InputStream;)V
 Ljava/lang/Boolean.toString()Ljava/lang/String;
 Landroid/webkit/WebView.loadUrl(Ljava/lang/String;)V
 Ljava/io/BufferedOutputStream.<init>(Ljava/io/OutputStream; I)V
+Ljava/lang/String.toCharArray()[C
 Ljava/io/BufferedOutputStream.<init>(Ljava/io/OutputStream;)V
 Ljava/lang/Double.doubleToLongBits(D)J
 Ljava/util/Properties.<init>()V
@@ -1082,7 +1084,7 @@ Ljava/io/BufferedOutputStream.close()V
 Ljava/lang/StringBuilder.setLength(I)V
 Ljava/text/DateFormat.getDateTimeInstance()Ljava/text/DateFormat;
 Landroid/widget/ImageButton.setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
-Landroid/database/sqlite/SQLiteDatabase.execSQL(Ljava/lang/String;)V
+Landroid/widget/TextView.setCompoundDrawablesWithIntrinsicBounds(Landroid/graphics/drawable/Drawable; Landroid/graphics/drawable/Drawable; Landroid/graphics/drawable/Drawable; Landroid/graphics/drawable/Drawable;)V
 Landroid/widget/TextView.setCompoundDrawablePadding(I)V
 Landroid/app/AlertDialog$Builder.create()Landroid/app/AlertDialog;
 Landroid/widget/TextView.setSingleLine(Z)V
@@ -1104,6 +1106,7 @@ Ljava/lang/Enum.<init>(Ljava/lang/String; I)V
 Ljava/lang/System.arraycopy(Ljava/lang/Object; I Ljava/lang/Object; I I)V
 Landroid/app/Activity.onCreateOptionsMenu(Landroid/view/Menu;)Z
 Ljava/lang/Float.valueOf(F)Ljava/lang/Float;
+Ljava/lang/String.<init>([C I I)V
 Ljava/nio/ByteBuffer.get([B I I)Ljava/nio/ByteBuffer;
 Landroid/content/res/AssetFileDescriptor.getLength()J
 Landroid/content/SharedPreferences$Editor.putLong(Ljava/lang/String; J)Landroid/content/SharedPreferences$Editor;
@@ -1178,10 +1181,9 @@ Ljava/util/zip/ZipInputStream.read([B)I
 Landroid/view/Window.clearFlags(I)V
 Landroid/graphics/Camera.<init>()V
 Lorg/json/JSONException.toString()Ljava/lang/String;
-Landroid/widget/ListView.setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
+Landroid/text/TextUtils.isEmpty(Ljava/lang/CharSequence;)Z
 Landroid/database/SQLException.<init>(Ljava/lang/String;)V
 Ljava/lang/reflect/Constructor.getParameterTypes()[Ljava/lang/Class;
-Landroid/content/Intent.setType(Ljava/lang/String;)Landroid/content/Intent;
 Ljava/io/DataOutputStream.writeUTF(Ljava/lang/String;)V
 Landroid/widget/RelativeLayout.onMeasure(I I)V
 Ldalvik/system/DexClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class;
@@ -1190,17 +1192,15 @@ Ljava/lang/String.toString()Ljava/lang/String;
 Ljava/lang/Error.<init>(Ljava/lang/String;)V
 Lorg/json/JSONArray.getJSONObject(I)Lorg/json/JSONObject;
 Ljava/lang/UnsupportedOperationException.<init>(Ljava/lang/String;)V
-Landroid/database/sqlite/SQLiteDatabase.query(Ljava/lang/String; [Ljava/lang/String; Ljava/lang/String; [Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)Landroid/database/Cursor;
 Landroid/net/ConnectivityManager.getNetworkInfo(I)Landroid/net/NetworkInfo;
 Ljava/lang/Object.equals(Ljava/lang/Object;)Z
-Ljava/lang/String.toCharArray()[C
 Landroid/view/LayoutInflater.from(Landroid/content/Context;)Landroid/view/LayoutInflater;
 Landroid/database/sqlite/SQLiteOpenHelper.<init>(Landroid/content/Context; Ljava/lang/String; Landroid/database/sqlite/SQLiteDatabase$CursorFactory; I)V
 Landroid/widget/VideoView.setVideoPath(Ljava/lang/String;)V
 Landroid/content/Intent.getBundleExtra(Ljava/lang/String;)Landroid/os/Bundle;
 Ljava/lang/Number.intValue()I
 Ljava/util/Collections.unmodifiableSet(Ljava/util/Set;)Ljava/util/Set;
-Landroid/app/ProgressDialog.<init>(Landroid/content/Context;)V
+Landroid/database/sqlite/SQLiteDatabase.query(Ljava/lang/String; [Ljava/lang/String; Ljava/lang/String; [Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)Landroid/database/Cursor;
 Landroid/net/Uri.parse(Ljava/lang/String;)Landroid/net/Uri;
 Ljava/net/URI.<init>(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)V
 Ljava/lang/Appendable.append(C)Ljava/lang/Appendable;
