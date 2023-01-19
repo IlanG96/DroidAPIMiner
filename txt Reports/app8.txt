@@ -1,0 +1,189 @@
+Ljava/lang/Integer.toString()Ljava/lang/String;
+Landroid/content/res/Resources.getColor(I)I
+Landroid/graphics/Paint.<init>(I)V
+Ljava/lang/Thread.start()V
+Ljava/io/OutputStream.flush()V
+Ljava/util/Random.nextInt(I)I
+Lorg/apache/http/HttpEntity.getContent()Ljava/io/InputStream;
+Ljava/lang/String.valueOf(I)Ljava/lang/String;
+Landroid/content/SharedPreferences$Editor.commit()Z
+Ljava/lang/StringBuilder.append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+Ljava/util/ArrayList.add(Ljava/lang/Object;)Z
+Ljava/lang/Object.wait()V
+Landroid/graphics/BitmapFactory.decodeResource(Landroid/content/res/Resources; I)Landroid/graphics/Bitmap;
+Landroid/app/AlertDialog$Builder.setMessage(Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;
+Ljava/lang/String.<init>(Ljava/lang/String;)V
+Landroid/telephony/TelephonyManager.getDeviceId()Ljava/lang/String;
+Ljava/security/MessageDigest.digest()[B
+Landroid/app/AlertDialog$Builder.<init>(Landroid/content/Context;)V
+Landroid/graphics/Paint.<init>()V
+Landroid/view/View.setOnClickListener(Landroid/view/View$OnClickListener;)V
+Ljava/lang/Class.getMethod(Ljava/lang/String; [Ljava/lang/Class;)Ljava/lang/reflect/Method;
+Landroid/content/Context.getPackageManager()Landroid/content/pm/PackageManager;
+Ljava/lang/StringBuilder.append(I)Ljava/lang/StringBuilder;
+Ljava/lang/StringBuilder.<init>(Ljava/lang/String;)V
+Ljava/lang/reflect/Method.invoke(Ljava/lang/Object; [Ljava/lang/Object;)Ljava/lang/Object;
+Ljava/lang/StringBuilder.append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+Ljava/lang/String.length()I
+Landroid/content/Intent.setAction(Ljava/lang/String;)Landroid/content/Intent;
+Landroid/content/Context.getPackageName()Ljava/lang/String;
+Landroid/view/View.getId()I
+Ljava/lang/RuntimeException.<init>(Ljava/lang/Throwable;)V
+Landroid/app/AlertDialog$Builder.setTitle(I)Landroid/app/AlertDialog$Builder;
+Ljava/io/BufferedReader.close()V
+Landroid/graphics/Bitmap.eraseColor(I)V
+Ljava/lang/InterruptedException.printStackTrace()V
+Landroid/preference/PreferenceActivity.onCreate(Landroid/os/Bundle;)V
+Ljava/lang/StringBuilder.append(C)Ljava/lang/StringBuilder;
+Ljava/lang/String.split(Ljava/lang/String;)[Ljava/lang/String;
+Landroid/content/Intent.addFlags(I)Landroid/content/Intent;
+Landroid/graphics/Canvas.drawRoundRect(Landroid/graphics/RectF; F F Landroid/graphics/Paint;)V
+Landroid/content/SharedPreferences.edit()Landroid/content/SharedPreferences$Editor;
+Landroid/view/MotionEvent.getY()F
+Landroid/graphics/Bitmap.getWidth()I
+Landroid/telephony/TelephonyManager.getSimSerialNumber()Ljava/lang/String;
+Ljava/lang/Math.abs(I)I
+Lorg/apache/http/client/ClientProtocolException.printStackTrace()V
+Ljava/lang/System.currentTimeMillis()J
+Landroid/view/MotionEvent.getAction()I
+Ljava/io/FileReader.<init>(Ljava/lang/String;)V
+Ljava/lang/Math.max(I I)I
+Ljava/security/MessageDigest.getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
+Landroid/graphics/Canvas.drawBitmap(Landroid/graphics/Bitmap; F F Landroid/graphics/Paint;)V
+Landroid/app/AlertDialog$Builder.create()Landroid/app/AlertDialog;
+Landroid/content/pm/PackageManager.getPackageInfo(Ljava/lang/String; I)Landroid/content/pm/PackageInfo;
+Ljava/io/File.<init>(Ljava/lang/String;)V
+Landroid/content/res/Resources.getStringArray(I)[Ljava/lang/String;
+Ljava/io/File.toString()Ljava/lang/String;
+Landroid/net/Uri.fromFile(Ljava/io/File;)Landroid/net/Uri;
+Landroid/net/NetworkInfo.getExtraInfo()Ljava/lang/String;
+Lorg/apache/http/message/BasicNameValuePair.<init>(Ljava/lang/String; Ljava/lang/String;)V
+Lorg/apache/http/client/entity/UrlEncodedFormEntity.<init>(Ljava/util/List;)V
+Landroid/content/pm/PackageManager.getApplicationLabel(Landroid/content/pm/ApplicationInfo;)Ljava/lang/CharSequence;
+Landroid/net/ConnectivityManager.getNetworkInfo(I)Landroid/net/NetworkInfo;
+Ljava/io/IOException.printStackTrace()V
+Ljava/security/MessageDigest.reset()V
+Ljava/util/Random.<init>()V
+Landroid/content/Context.getAssets()Landroid/content/res/AssetManager;
+Landroid/app/Activity.onRestart()V
+Landroid/content/pm/PackageManager$NameNotFoundException.printStackTrace()V
+Landroid/os/Bundle.get(Ljava/lang/String;)Ljava/lang/Object;
+Landroid/app/Activity.onResume()V
+Landroid/content/SharedPreferences.getInt(Ljava/lang/String; I)I
+Landroid/net/NetworkInfo.getState()Landroid/net/NetworkInfo$State;
+Landroid/content/Context.getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+Ljava/lang/String.valueOf(J)Ljava/lang/String;
+Ljava/lang/Thread.sleep(J I)V
+Landroid/graphics/Canvas.drawRect(F F F F Landroid/graphics/Paint;)V
+Landroid/content/Intent.<init>()V
+Ljava/lang/StringBuilder.toString()Ljava/lang/String;
+Ljava/io/OutputStream.close()V
+Ljava/lang/reflect/Array.newInstance(Ljava/lang/Class; [I)Ljava/lang/Object;
+Ljava/lang/StringBuilder.<init>()V
+Landroid/telephony/TelephonyManager.getLine1Number()Ljava/lang/String;
+Ljava/lang/String.substring(I)Ljava/lang/String;
+Landroid/graphics/Canvas.translate(F F)V
+Ljava/security/MessageDigest.update([B)V
+Ljava/lang/String.<init>()V
+Landroid/view/View.<init>(Landroid/content/Context;)V
+Landroid/content/Context.getSharedPreferences(Ljava/lang/String; I)Landroid/content/SharedPreferences;
+Landroid/preference/PreferenceActivity.<init>()V
+Landroid/telephony/TelephonyManager.getSubscriberId()Ljava/lang/String;
+Lorg/apache/http/HttpResponse.getEntity()Lorg/apache/http/HttpEntity;
+Ljava/io/FileOutputStream.<init>(Ljava/io/File;)V
+Ljava/lang/Object.<init>()V
+Lorg/apache/http/params/BasicHttpParams.<init>()V
+Ljava/lang/Integer.toHexString(I)Ljava/lang/String;
+Ljava/lang/String.<init>([B)V
+Landroid/content/Context.getApplicationContext()Landroid/content/Context;
+Landroid/app/Activity.onBackPressed()V
+Landroid/content/SharedPreferences$Editor.putLong(Ljava/lang/String; J)Landroid/content/SharedPreferences$Editor;
+Ljava/lang/String.valueOf(Ljava/lang/Object;)Ljava/lang/String;
+Ljava/io/File.exists()Z
+Landroid/content/SharedPreferences.getLong(Ljava/lang/String; J)J
+Lorg/apache/http/params/HttpConnectionParams.setConnectionTimeout(Lorg/apache/http/params/HttpParams; I)V
+Ljava/io/InputStream.close()V
+Landroid/content/SharedPreferences.getBoolean(Ljava/lang/String; Z)Z
+Landroid/content/Intent.setDataAndType(Landroid/net/Uri; Ljava/lang/String;)Landroid/content/Intent;
+Ljava/io/BufferedReader.readLine()Ljava/lang/String;
+Lorg/apache/http/client/methods/HttpPost.setEntity(Lorg/apache/http/HttpEntity;)V
+Ljava/lang/Enum.<init>(Ljava/lang/String; I)V
+Ljava/lang/System.arraycopy(Ljava/lang/Object; I Ljava/lang/Object; I I)V
+Landroid/view/MotionEvent.getX()F
+Landroid/os/Environment.getExternalStoragePublicDirectory(Ljava/lang/String;)Ljava/io/File;
+Lorg/apache/http/client/HttpClient.getConnectionManager()Lorg/apache/http/conn/ClientConnectionManager;
+Landroid/content/res/AssetManager.list(Ljava/lang/String;)[Ljava/lang/String;
+Landroid/preference/PreferenceManager.getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
+Landroid/util/Log.d(Ljava/lang/String; Ljava/lang/String;)I
+Lorg/json/JSONTokener.<init>(Ljava/lang/String;)V
+Lorg/json/JSONTokener.nextValue()Ljava/lang/Object;
+Ljava/io/BufferedReader.<init>(Ljava/io/Reader; I)V
+Landroid/content/res/AssetManager.open(Ljava/lang/String;)Ljava/io/InputStream;
+Landroid/app/Activity.onCreate(Landroid/os/Bundle;)V
+Landroid/app/AlertDialog$Builder.setIcon(Landroid/graphics/drawable/Drawable;)Landroid/app/AlertDialog$Builder;
+Landroid/graphics/Bitmap.isRecycled()Z
+Ljava/lang/ArrayIndexOutOfBoundsException.printStackTrace()V
+Landroid/util/Log.i(Ljava/lang/String; Ljava/lang/String;)I
+Ljava/lang/String.getBytes()[B
+Lorg/apache/http/params/HttpConnectionParams.setSoTimeout(Lorg/apache/http/params/HttpParams; I)V
+Ljava/lang/Integer.intValue()I
+Landroid/graphics/RectF.<init>(F F F F)V
+Landroid/content/Context.getResources()Landroid/content/res/Resources;
+Landroid/content/SharedPreferences$Editor.putString(Ljava/lang/String; Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
+Landroid/content/res/Resources.getString(I)Ljava/lang/String;
+Landroid/app/Activity.<init>()V
+Landroid/graphics/Paint.descent()F
+Landroid/app/AlertDialog.show()V
+Ljava/io/UnsupportedEncodingException.printStackTrace()V
+Landroid/os/Environment.getExternalStorageDirectory()Ljava/io/File;
+Lorg/apache/http/conn/ClientConnectionManager.shutdown()V
+Landroid/graphics/Paint.setTextAlign(Landroid/graphics/Paint$Align;)V
+Ljava/lang/String.equals(Ljava/lang/Object;)Z
+Lorg/json/JSONObject.getString(Ljava/lang/String;)Ljava/lang/String;
+Lorg/apache/http/client/methods/HttpPost.<init>(Ljava/lang/String;)V
+Landroid/graphics/Paint.setAlpha(I)V
+Ljava/lang/Exception.printStackTrace()V
+Ljava/io/File.getPath()Ljava/lang/String;
+Landroid/content/Intent.<init>(Landroid/content/Context; Ljava/lang/Class;)V
+Lorg/apache/http/client/HttpClient.execute(Lorg/apache/http/client/methods/HttpUriRequest;)Lorg/apache/http/HttpResponse;
+Landroid/graphics/Paint.ascent()F
+Ljava/util/Random.setSeed(J)V
+Landroid/telephony/TelephonyManager.getNetworkType()I
+Lorg/apache/http/impl/client/DefaultHttpClient.<init>(Lorg/apache/http/params/HttpParams;)V
+Ljava/util/ArrayList.<init>()V
+Landroid/graphics/Paint.setColor(I)V
+Ljava/lang/String.startsWith(Ljava/lang/String;)Z
+Landroid/view/Window.setFlags(I I)V
+Landroid/content/SharedPreferences.getString(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+Ljava/lang/Thread.<init>(Ljava/lang/Runnable;)V
+Ljava/util/Random.<init>(J)V
+Ljava/lang/Thread.sleep(J)V
+Ljava/io/InputStream.read([B)I
+Landroid/graphics/Canvas.<init>(Landroid/graphics/Bitmap;)V
+Ljava/lang/Enum.valueOf(Ljava/lang/Class; Ljava/lang/String;)Ljava/lang/Enum;
+Ljava/lang/Object.notifyAll()V
+Landroid/graphics/Bitmap.createBitmap(I I Landroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
+Landroid/graphics/Canvas.drawText(Ljava/lang/String; F F Landroid/graphics/Paint;)V
+Landroid/graphics/Canvas.rotate(F F F)V
+Landroid/app/AlertDialog$Builder.setCancelable(Z)Landroid/app/AlertDialog$Builder;
+Landroid/graphics/Paint.setTextSize(F)V
+Ljava/io/OutputStream.write([B I I)V
+Landroid/graphics/Bitmap.getHeight()I
+Ljava/lang/Integer.<init>(I)V
+Landroid/os/Bundle.getInt(Ljava/lang/String;)I
+Ljava/io/BufferedReader.<init>(Ljava/io/Reader;)V
+Landroid/content/pm/ApplicationInfo.loadIcon(Landroid/content/pm/PackageManager;)Landroid/graphics/drawable/Drawable;
+Landroid/view/View.onKeyDown(I Landroid/view/KeyEvent;)Z
+Ljava/io/InputStreamReader.<init>(Ljava/io/InputStream; Ljava/lang/String;)V
+Ljava/io/File.mkdirs()Z
+Landroid/app/AlertDialog$Builder.setPositiveButton(I Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
+Landroid/content/SharedPreferences$Editor.putInt(Ljava/lang/String; I)Landroid/content/SharedPreferences$Editor;
+Ljava/lang/Class.forName(Ljava/lang/String;)Ljava/lang/Class;
+Ljava/lang/String.trim()Ljava/lang/String;
+Landroid/content/pm/PackageManager.getApplicationInfo(Ljava/lang/String; I)Landroid/content/pm/ApplicationInfo;
+Ljava/lang/StringBuilder.append[http]
+Ljava/lang/String.append[http]
+Ljava/lang/StringBuilder.append[su]
+Ljava/lang/String.append[su]
+Ljava/lang/StringBuilder.<init>[su]
+Ljava/lang/String.<init>[su]

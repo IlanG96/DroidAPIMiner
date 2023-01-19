@@ -1,0 +1,327 @@
+Traning set size: 19496 The testing set size: 4875
+KNN Results
+Accuracy: 90.81%
+F1-score: 77.05%
+TPR (True Positive Rate) = Recall: 68.24%
+FNR (False Negative Rate): 0.00%
+
+
+Linear SVM Results
+Accuracy: 89.29%
+F1-score: 70.77%
+TPR (True Positive Rate) = Recall: 57.35%
+FNR (False Negative Rate): 0.00%
+
+
+Decision Tree Results
+Accuracy: 91.49%
+F1-score: 78.94%
+TPR (True Positive Rate) = Recall: 70.60%
+FNR (False Negative Rate): 0.00%
+
+
+
+[+]Zero Knowledge attack Decision Tree,Linear SVM and KNN
+Done ZK
+KNN Results
+Accuracy: 90.11%
+F1-score: 74.71%
+TPR (True Positive Rate) = Recall: 64.61%
+FNR (False Negative Rate): 0.00%
+
+
+Done ZK
+Linear SVM Results
+Accuracy: 86.85%
+F1-score: 64.95%
+TPR (True Positive Rate) = Recall: 53.90%
+FNR (False Negative Rate): 0.00%
+
+
+Done ZK
+Decision Tree Results
+Accuracy: 87.08%
+F1-score: 68.15%
+TPR (True Positive Rate) = Recall: 61.16%
+FNR (False Negative Rate): 0.00%
+
+
+
+[+]Black Box attack Decision Tree,Linear SVM and KNN
+Finished black
+KNN Results
+Accuracy: 90.67%
+F1-score: 75.71%
+TPR (True Positive Rate) = Recall: 64.34%
+FNR (False Negative Rate): 0.00%
+
+
+Finished black
+Linear SVM Results
+Accuracy: 85.17%
+F1-score: 60.21%
+TPR (True Positive Rate) = Recall: 49.64%
+FNR (False Negative Rate): 0.00%
+
+
+Finished black
+Decision Tree Results
+Accuracy: 85.81%
+F1-score: 65.30%
+TPR (True Positive Rate) = Recall: 59.07%
+FNR (False Negative Rate): 0.00%
+
+
+
+
+
+----------------------------------------------------------------------------------update set 44391------------------------------------------------
+Traning set size: 37132 The testing set size: 9284
+KNN Results
+Accuracy: 95.05%
+F1-score: 76.09%
+TPR (True Positive Rate) = Recall: 64.44%
+FNR (False Negative Rate): 35.56%
+
+
+ID5 Decision Tree Results
+Accuracy: 95.00%
+F1-score: 76.45%
+TPR (True Positive Rate) = Recall: 66.29%
+FNR (False Negative Rate): 33.71%
+
+
+Linear SVM Results
+Accuracy: 93.68%
+F1-score: 67.48%
+TPR (True Positive Rate) = Recall: 53.61%
+FNR (False Negative Rate): 46.39%
+
+
+C4.5 Decision Tree Results
+Accuracy: 94.88%
+F1-score: 75.85%
+TPR (True Positive Rate) = Recall: 65.67%
+FNR (False Negative Rate): 34.33%
+
+
+
+-------------------------------------------Zero Knowledge attack Decision Tree,Linear SVM and KNN-------------------------------------------
+Done ZK
+KNN Results
+Accuracy: 93.84%
+F1-score: 69.01%
+TPR (True Positive Rate) = Recall: 56.07%
+FNR (False Negative Rate): 43.93%
+
+
+Done ZK
+ID5 Decision Tree Results
+Accuracy: 89.40%
+F1-score: 53.72%
+TPR (True Positive Rate) = Recall: 50.26%
+FNR (False Negative Rate): 49.74%
+
+
+Done ZK
+Linear SVM Results
+Accuracy: 88.98%
+F1-score: 50.75%
+TPR (True Positive Rate) = Recall: 46.39%
+FNR (False Negative Rate): 53.61%
+
+
+Done ZK
+C4.5 Decision Tree Results
+Accuracy: 88.56%
+F1-score: 53.09%
+TPR (True Positive Rate) = Recall: 52.90%
+FNR (False Negative Rate): 47.10%
+
+
+
+-------------------------------------------Black Box attack Decision Tree,Linear SVM and KNN-------------------------------------------
+Finished black
+KNN Results
+Accuracy: 94.50%
+F1-score: 71.44%
+TPR (True Positive Rate) = Recall: 56.25%
+FNR (False Negative Rate): 43.75%
+
+
+Finished black
+ID5 Decision Tree Results
+Accuracy: 90.26%
+F1-score: 44.47%
+TPR (True Positive Rate) = Recall: 31.87%
+FNR (False Negative Rate): 68.13%
+
+
+Finished black
+Linear SVM Results
+Accuracy: 88.88%
+F1-score: 34.68%
+TPR (True Positive Rate) = Recall: 24.12%
+FNR (False Negative Rate): 75.88%
+
+
+Finished black
+C4.5 Decision Tree Results
+Accuracy: 90.45%
+F1-score: 47.42%
+TPR (True Positive Rate) = Recall: 35.21%
+FNR (False Negative Rate): 64.79%
+
+
+
+ -------------------------------------------White box attack Decision Tree,Linear SVM and KNN-------------------------------------------
+Finish
+KNN Results
+Accuracy: 81.39%
+F1-score: 10.74%
+TPR (True Positive Rate) = Recall: 9.15%
+FNR (False Negative Rate): 90.85%
+
+
+Finish
+ID5 Decision Tree Results
+Accuracy: 81.25%
+F1-score: 8.90%
+TPR (True Positive Rate) = Recall: 7.48%
+FNR (False Negative Rate): 92.52%
+
+
+Finish
+Linear SVM Results
+Accuracy: 82.24%
+F1-score: 8.74%
+TPR (True Positive Rate) = Recall: 6.95%
+FNR (False Negative Rate): 93.05%
+
+
+Finish
+C4.5 Decision Tree Results
+Accuracy: 81.06%
+F1-score: 8.05%
+TPR (True Positive Rate) = Recall: 6.78%
+FNR (False Negative Rate): 93.22%
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+KNN Results
+Accuracy: 95.05%
+F1-score: 76.09%
+TPR (True Positive Rate) = Recall: 64.44%
+FNR (False Negative Rate): 35.56%
+
+
+ID5 Decision Tree Results
+Accuracy: 94.97%
+F1-score: 76.31%
+TPR (True Positive Rate) = Recall: 66.20%
+FNR (False Negative Rate): 33.80%
+
+
+Linear SVM Results
+Accuracy: 93.68%
+F1-score: 67.48%
+TPR (True Positive Rate) = Recall: 53.61%
+FNR (False Negative Rate): 46.39%
+
+
+C4.5 Decision Tree Results
+Accuracy: 94.82%
+F1-score: 75.60%
+TPR (True Positive Rate) = Recall: 65.58%
+FNR (False Negative Rate): 34.42%
+
+
+
+Zero Knowledge attack
+KNN Results
+Accuracy: 86.06%
+F1-score: 18.62%
+TPR (True Positive Rate) = Recall: 13.03%
+FNR (False Negative Rate): 86.97%
+
+
+ID5 Decision Tree Results
+Accuracy: 78.27%
+F1-score: 24.20%
+TPR (True Positive Rate) = Recall: 28.35%
+FNR (False Negative Rate): 71.65%
+
+
+Linear SVM Results
+Accuracy: 75.65%
+F1-score: 25.16%
+TPR (True Positive Rate) = Recall: 33.45%
+FNR (False Negative Rate): 66.55%
+
+
+C4.5 Decision Tree Results
+Accuracy: 75.44%
+F1-score: 22.13%
+TPR (True Positive Rate) = Recall: 28.52%
+FNR (False Negative Rate): 71.48%
+
+
+
+Black Box attack
+KNN Results
+Accuracy: 87.90%
+F1-score: 2.26%
+TPR (True Positive Rate) = Recall: 1.14%
+FNR (False Negative Rate): 98.86%
+
+
+ID5 Decision Tree Results
+Accuracy: 87.86%
+F1-score: 3.10%
+TPR (True Positive Rate) = Recall: 1.58%
+FNR (False Negative Rate): 98.42%
+
+
+Linear SVM Results
+Accuracy: 87.82%
+F1-score: 5.04%
+TPR (True Positive Rate) = Recall: 2.64%
+FNR (False Negative Rate): 97.36%
+
+
+C4.5 Decision Tree Results
+Accuracy: 87.86%
+F1-score: 1.91%
+TPR (True Positive Rate) = Recall: 0.97%
+FNR (False Negative Rate): 99.03%
+
+
+
+White box 
+KNN Results
+Accuracy: 81.10%
+F1-score: 9.30%
+TPR (True Positive Rate) = Recall: 7.92%
+FNR (False Negative Rate): 92.08%
+
+
+ID5 Decision Tree Results
+Accuracy: 81.54%
+F1-score: 11.74%
+TPR (True Positive Rate) = Recall: 10.04%
+FNR (False Negative Rate): 89.96%
+
+
+Linear SVM Results
+Accuracy: 82.08%
+F1-score: 10.34%
+TPR (True Positive Rate) = Recall: 8.45%
+FNR (False Negative Rate): 91.55%
+
+
+C4.5 Decision Tree Results
+Accuracy: 81.54%
+F1-score: 11.10%
+TPR (True Positive Rate) = Recall: 9.42%
+FNR (False Negative Rate): 90.58%
+

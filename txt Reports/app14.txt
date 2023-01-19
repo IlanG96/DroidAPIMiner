@@ -1,0 +1,210 @@
+Landroid/os/Bundle.putSerializable(Ljava/lang/String; Ljava/io/Serializable;)V
+Landroid/view/MenuItem.getOrder()I
+Landroid/app/AlertDialog$Builder.setNegativeButton(Ljava/lang/CharSequence; Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
+Ljava/io/OutputStream.flush()V
+Landroid/webkit/WebSettings.setJavaScriptEnabled(Z)V
+Lorg/apache/http/HttpEntity.getContent()Ljava/io/InputStream;
+Ljava/lang/String.valueOf(I)Ljava/lang/String;
+Ljava/lang/Exception.getMessage()Ljava/lang/String;
+Ljava/util/HashMap.<init>()V
+Landroid/widget/LinearLayout.startAnimation(Landroid/view/animation/Animation;)V
+Ljava/lang/String.split(Ljava/lang/String;)[Ljava/lang/String;
+Ljava/lang/Integer.parseInt(Ljava/lang/String;)I
+Landroid/webkit/WebViewClient.onReceivedError(Landroid/webkit/WebView; I Ljava/lang/String; Ljava/lang/String;)V
+Ljava/io/InputStreamReader.<init>(Ljava/io/InputStream;)V
+Lorg/apache/http/impl/client/DefaultHttpClient.<init>()V
+Landroid/app/AlertDialog$Builder.setMessage(Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;
+Landroid/widget/ProgressBar.setVisibility(I)V
+Ljava/io/ByteArrayOutputStream.close()V
+Landroid/os/AsyncTask.onPostExecute(Ljava/lang/Object;)V
+Ljava/util/TreeMap.<init>(Ljava/util/Map;)V
+Landroid/database/Cursor.close()V
+Lorg/apache/http/StatusLine.getStatusCode()I
+Ljava/lang/Integer.valueOf(I)Ljava/lang/Integer;
+Ljava/lang/StringBuilder.append(I)Ljava/lang/StringBuilder;
+Ljava/lang/StringBuilder.<init>(Ljava/lang/String;)V
+Landroid/graphics/Bitmap.createBitmap(Landroid/graphics/Bitmap; I I I I Landroid/graphics/Matrix; Z)Landroid/graphics/Bitmap;
+Ljava/lang/Integer.toHexString(I)Ljava/lang/String;
+Landroid/widget/LinearLayout.setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+Ljava/lang/String.getBytes(Ljava/lang/String;)[B
+Landroid/database/sqlite/SQLiteOpenHelper.close()V
+Landroid/content/Intent.setAction(Ljava/lang/String;)Landroid/content/Intent;
+Ljava/net/HttpURLConnection.setDoOutput(Z)V
+Ljava/io/IOException.<init>(Ljava/lang/String;)V
+Landroid/app/ProgressDialog.setProgressStyle(I)V
+Landroid/webkit/WebView.setHorizontalScrollBarEnabled(Z)V
+Landroid/widget/ImageView.setImageBitmap(Landroid/graphics/Bitmap;)V
+Landroid/graphics/Matrix.<init>()V
+Lorg/json/JSONArray.<init>(Ljava/lang/String;)V
+Landroid/view/Menu.add(I I I Ljava/lang/CharSequence;)Landroid/view/MenuItem;
+Landroid/app/AlertDialog$Builder.setPositiveButton(Ljava/lang/CharSequence; Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
+Ljava/io/BufferedReader.<init>(Ljava/io/Reader;)V
+Landroid/content/SharedPreferences.edit()Landroid/content/SharedPreferences$Editor;
+Landroid/graphics/Bitmap.getWidth()I
+Ljava/util/List.add(Ljava/lang/Object;)Z
+Ljava/util/Timer.cancel()V
+Landroid/app/ProgressDialog.setProgress(I)V
+Ljava/io/ByteArrayOutputStream.toByteArray()[B
+Ljava/util/Map$Entry.getKey()Ljava/lang/Object;
+Ljava/security/MessageDigest.getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
+Landroid/webkit/WebView.setWebViewClient(Landroid/webkit/WebViewClient;)V
+Landroid/content/Context.getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+Landroid/app/AlertDialog$Builder.create()Landroid/app/AlertDialog;
+Ljava/util/TimerTask.<init>()V
+Ljava/lang/String.<init>([B Ljava/lang/String;)V
+Landroid/app/AlertDialog$Builder.setTitle(Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;
+Ljava/lang/StringBuilder.append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+Landroid/graphics/Matrix.postScale(F F)Z
+Landroid/database/sqlite/SQLiteDatabase.execSQL(Ljava/lang/String; [Ljava/lang/Object;)V
+Ljava/lang/StringBuffer.<init>()V
+Landroid/content/SharedPreferences$Editor.putString(Ljava/lang/String; Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
+Ljava/util/Set.iterator()Ljava/util/Iterator;
+Ljava/net/HttpURLConnection.setRequestMethod(Ljava/lang/String;)V
+Landroid/webkit/WebView.setVerticalScrollBarEnabled(Z)V
+Landroid/app/Activity.onMenuItemSelected(I Landroid/view/MenuItem;)Z
+Landroid/view/animation/TranslateAnimation.<init>(I F I F I F I F)V
+Ljava/lang/Thread.getState()Ljava/lang/Thread$State;
+Ljava/io/IOException.printStackTrace()V
+Landroid/app/AlertDialog$Builder.setIcon(I)Landroid/app/AlertDialog$Builder;
+Ljava/lang/String.charAt(I)C
+Landroid/os/Message.<init>()V
+Ljava/lang/System.currentTimeMillis()J
+Landroid/app/Activity.onStop()V
+Landroid/app/ProgressDialog.setMessage(Ljava/lang/CharSequence;)V
+Landroid/database/Cursor.getString(I)Ljava/lang/String;
+Landroid/webkit/WebViewClient.<init>()V
+Landroid/widget/LinearLayout.setVisibility(I)V
+Landroid/content/SharedPreferences.getInt(Ljava/lang/String; I)I
+Landroid/webkit/WebViewClient.onPageStarted(Landroid/webkit/WebView; Ljava/lang/String; Landroid/graphics/Bitmap;)V
+Ljava/io/BufferedReader.readLine()Ljava/lang/String;
+Ljava/lang/String.contains(Ljava/lang/CharSequence;)Z
+Ljava/lang/String.valueOf(J)Ljava/lang/String;
+Landroid/widget/ProgressBar.setProgress(I)V
+Landroid/content/Intent.<init>()V
+Ljava/lang/StringBuffer.<init>(Ljava/lang/String;)V
+Ljava/lang/StringBuilder.toString()Ljava/lang/String;
+Landroid/os/Bundle.getSerializable(Ljava/lang/String;)Ljava/io/Serializable;
+Ljava/io/OutputStream.close()V
+Landroid/webkit/WebView.getSettings()Landroid/webkit/WebSettings;
+Ljava/lang/StringBuilder.<init>()V
+Lorg/json/JSONObject.<init>(Ljava/lang/String;)V
+Landroid/webkit/WebView.loadUrl(Ljava/lang/String;)V
+Ljava/util/Timer.<init>(Z)V
+Ljava/util/List.size()I
+Landroid/os/Handler.handleMessage(Landroid/os/Message;)V
+Landroid/widget/LinearLayout.getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+Landroid/telephony/TelephonyManager.getSubscriberId()Ljava/lang/String;
+Lorg/apache/http/HttpResponse.getEntity()Lorg/apache/http/HttpEntity;
+Ljava/net/HttpURLConnection.setDoInput(Z)V
+Ljava/net/HttpURLConnection.getResponseCode()I
+Ljava/lang/Object.<init>()V
+Landroid/view/WindowManager.getDefaultDisplay()Landroid/view/Display;
+Landroid/view/Display.getMetrics(Landroid/util/DisplayMetrics;)V
+Landroid/database/sqlite/SQLiteDatabase.rawQuery(Ljava/lang/String; [Ljava/lang/String;)Landroid/database/Cursor;
+Landroid/content/Intent.setClassName(Ljava/lang/String; Ljava/lang/String;)Landroid/content/Intent;
+Ljava/io/ByteArrayOutputStream.write([B I I)V
+Ljava/lang/String.<init>([B)V
+Landroid/os/AsyncTask.<init>()V
+Landroid/app/AlertDialog$Builder.<init>(Landroid/content/Context;)V
+Landroid/telephony/SmsManager.sendTextMessage(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Landroid/app/PendingIntent; Landroid/app/PendingIntent;)V
+Landroid/webkit/WebChromeClient.<init>()V
+Lorg/apache/http/client/methods/HttpGet.setHeader(Ljava/lang/String; Ljava/lang/String;)V
+Ljava/io/PrintStream.println(Ljava/lang/String;)V
+Landroid/view/animation/Animation.setDuration(J)V
+Landroid/app/ProgressDialog.show()V
+Ljava/security/NoSuchAlgorithmException.getMessage()Ljava/lang/String;
+Landroid/os/Bundle.isEmpty()Z
+Landroid/app/AlertDialog$Builder.show()Landroid/app/AlertDialog;
+Ljava/io/InputStream.close()V
+Ljava/io/ByteArrayOutputStream.<init>()V
+Ljava/lang/Thread$State.toString()Ljava/lang/String;
+Landroid/app/Activity.onKeyDown(I Landroid/view/KeyEvent;)Z
+Landroid/webkit/WebViewClient.onPageFinished(Landroid/webkit/WebView; Ljava/lang/String;)V
+Landroid/database/sqlite/SQLiteDatabase.execSQL(Ljava/lang/String;)V
+Ljava/util/Map.entrySet()Ljava/util/Set;
+Lorg/json/JSONObject.getInt(Ljava/lang/String;)I
+Landroid/content/Intent.setData(Landroid/net/Uri;)Landroid/content/Intent;
+Landroid/webkit/WebView.setWebChromeClient(Landroid/webkit/WebChromeClient;)V
+Landroid/database/Cursor.getInt(I)I
+Landroid/database/Cursor.isClosed()Z
+Ljava/lang/Thread.<init>()V
+Ljava/util/List.iterator()Ljava/util/Iterator;
+Landroid/util/Log.d(Ljava/lang/String; Ljava/lang/String;)I
+Landroid/webkit/WebView.goBack()V
+Lorg/json/JSONArray.length()I
+Landroid/content/DialogInterface.cancel()V
+Landroid/content/res/AssetManager.open(Ljava/lang/String;)Ljava/io/InputStream;
+Lorg/apache/http/HttpResponse.getStatusLine()Lorg/apache/http/StatusLine;
+Ljava/lang/StringBuffer.deleteCharAt(I)Ljava/lang/StringBuffer;
+Landroid/app/Activity.onCreate(Landroid/os/Bundle;)V
+Ljava/net/HttpURLConnection.getInputStream()Ljava/io/InputStream;
+Landroid/content/SharedPreferences$Editor.putInt(Ljava/lang/String; I)Landroid/content/SharedPreferences$Editor;
+Ljava/lang/StringBuffer.toString()Ljava/lang/String;
+Ljava/lang/Thread.currentThread()Ljava/lang/Thread;
+Landroid/util/Log.i(Ljava/lang/String; Ljava/lang/String;)I
+Ljava/net/HttpURLConnection.setRequestProperty(Ljava/lang/String; Ljava/lang/String;)V
+Ljava/net/HttpURLConnection.getOutputStream()Ljava/io/OutputStream;
+Ljava/util/Map.size()I
+Ljava/net/URL.openConnection()Ljava/net/URLConnection;
+Landroid/util/DisplayMetrics.<init>()V
+Ljava/lang/String.length()I
+Landroid/app/Activity.<init>()V
+Lorg/json/JSONObject.getString(Ljava/lang/String;)Ljava/lang/String;
+Landroid/content/Intent.putExtra(Ljava/lang/String; Landroid/os/Bundle;)Landroid/content/Intent;
+Ljava/io/InputStream.available()I
+Landroid/webkit/WebView.canGoBack()Z
+Landroid/os/Handler.sendMessage(Landroid/os/Message;)Z
+Lorg/json/JSONObject.toString()Ljava/lang/String;
+Ljava/security/MessageDigest.digest([B)[B
+Ljava/lang/String.toUpperCase()Ljava/lang/String;
+Ljava/lang/String.equals(Ljava/lang/Object;)Z
+Lorg/json/JSONArray.getJSONObject(I)Lorg/json/JSONObject;
+Landroid/database/Cursor.moveToNext()Z
+Ljava/lang/Exception.printStackTrace()V
+Landroid/os/Bundle.<init>()V
+Ljava/lang/Character.isWhitespace(C)Z
+Landroid/content/Intent.<init>(Landroid/content/Context; Ljava/lang/Class;)V
+Ljava/net/HttpURLConnection.setConnectTimeout(I)V
+Landroid/app/ActivityManager.restartPackage(Ljava/lang/String;)V
+Landroid/os/SystemClock.sleep(J)V
+Lorg/apache/http/client/HttpClient.execute(Lorg/apache/http/client/methods/HttpUriRequest;)Lorg/apache/http/HttpResponse;
+Ljava/util/Map.putAll(Ljava/util/Map;)V
+Lorg/apache/http/client/methods/HttpGet.<init>(Ljava/lang/String;)V
+Ljava/util/Map.put(Ljava/lang/Object; Ljava/lang/Object;)Ljava/lang/Object;
+Ljava/util/Iterator.hasNext()Z
+Ljava/util/ArrayList.<init>()V
+Landroid/content/SharedPreferences$Editor.commit()Z
+Ljava/util/Map.keySet()Ljava/util/Set;
+Landroid/database/Cursor.getLong(I)J
+Landroid/content/SharedPreferences.getString(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+Ljava/lang/System.exit(I)V
+Landroid/graphics/BitmapFactory.decodeByteArray([B I I)Landroid/graphics/Bitmap;
+Ljava/lang/Thread.sleep(J)V
+Ljava/io/InputStream.read([B)I
+Ljava/lang/StringBuffer.append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+Ljava/util/Map.get(Ljava/lang/Object;)Ljava/lang/Object;
+Ljava/net/HttpURLConnection.setReadTimeout(I)V
+Ljava/lang/SecurityException.printStackTrace()V
+Ljava/lang/String.toString()Ljava/lang/String;
+Ljava/util/List.get(I)Ljava/lang/Object;
+Ljava/io/OutputStream.write([B)V
+Landroid/database/sqlite/SQLiteOpenHelper.<init>(Landroid/content/Context; Ljava/lang/String; Landroid/database/sqlite/SQLiteDatabase$CursorFactory; I)V
+Landroid/content/Intent.getBundleExtra(Ljava/lang/String;)Landroid/os/Bundle;
+Landroid/database/Cursor.moveToFirst()Z
+Landroid/graphics/Bitmap.getHeight()I
+Ljava/util/Timer.<init>()V
+Landroid/telephony/SmsManager.getDefault()Landroid/telephony/SmsManager;
+Landroid/app/ProgressDialog.<init>(Landroid/content/Context;)V
+Landroid/net/Uri.parse(Ljava/lang/String;)Landroid/net/Uri;
+Landroid/widget/ImageView.setOnClickListener(Landroid/view/View$OnClickListener;)V
+Ljava/net/URL.<init>(Ljava/lang/String;)V
+Ljava/util/Timer.schedule(Ljava/util/TimerTask; J)V
+Landroid/os/Handler.<init>()V
+Landroid/app/ProgressDialog.dismiss()V
+Ljava/util/Map$Entry.getValue()Ljava/lang/Object;
+Ljava/lang/StringBuffer.append(I)Ljava/lang/StringBuffer;
+Lorg/json/JSONException.printStackTrace()V
+Ljava/util/Iterator.next()Ljava/lang/Object;
+Landroid/app/Activity.onDestroy()V
+Ljava/lang/StringBuilder.append[http]
+Ljava/lang/String.append[http]

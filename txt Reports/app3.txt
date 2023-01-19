@@ -1,0 +1,7 @@
+Ljava/lang/String.append[ls]
+Ljava/lang/String.append[su]
+Ljava/lang/StringBuilder.append[su]
+Ljava/lang/StringBuilder.append[ls]
+Landroid/content/Intent.<init>[SEND]
+Landroid/content/Intent.putExtra[SEND]
+DataFlow: 6

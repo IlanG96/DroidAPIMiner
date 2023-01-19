@@ -1,0 +1,183 @@
+Landroid/os/Handler.<init>()V
+Ljava/lang/Thread.start()V
+Landroid/webkit/WebSettings.setJavaScriptEnabled(Z)V
+Landroid/net/Uri.parse(Ljava/lang/String;)Landroid/net/Uri;
+Ljava/lang/String.valueOf(I)Ljava/lang/String;
+Landroid/app/NotificationManager.notify(I Landroid/app/Notification;)V
+Ljava/lang/String.split(Ljava/lang/String;)[Ljava/lang/String;
+Ljava/lang/StringBuilder.append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+Landroid/app/Activity.onCreate(Landroid/os/Bundle;)V
+Landroid/webkit/WebView.setScrollBarStyle(I)V
+Lorg/xmlpull/v1/XmlPullParser.setInput(Ljava/io/Reader;)V
+Ljava/io/DataOutputStream.<init>(Ljava/io/OutputStream;)V
+Landroid/app/Notification.setLatestEventInfo(Landroid/content/Context; Ljava/lang/CharSequence; Ljava/lang/CharSequence; Landroid/app/PendingIntent;)V
+Ljava/net/HttpURLConnection.disconnect()V
+Ljava/lang/StringBuilder.append(J)Ljava/lang/StringBuilder;
+Ljava/lang/StringBuilder.append(I)Ljava/lang/StringBuilder;
+Ljava/lang/StringBuilder.<init>(Ljava/lang/String;)V
+Landroid/content/Intent.putExtra(Ljava/lang/String; Landroid/os/Parcelable;)Landroid/content/Intent;
+Landroid/net/NetworkInfo.isAvailable()Z
+Ljava/lang/String.length()I
+Landroid/content/Intent.setAction(Ljava/lang/String;)Landroid/content/Intent;
+Ljava/net/HttpURLConnection.setDoOutput(Z)V
+Landroid/app/Activity.getSharedPreferences(Ljava/lang/String; I)Landroid/content/SharedPreferences;
+Ljava/io/DataOutputStream.close()V
+Ljava/io/InputStream.read([B)I
+Landroid/app/NotificationManager.cancelAll()V
+Ljava/net/URL.<init>(Ljava/lang/String;)V
+Landroid/content/Context.startActivity(Landroid/content/Intent;)V
+Ljava/lang/StringBuilder.append(C)Ljava/lang/StringBuilder;
+Ljava/io/FileOutputStream.close()V
+Landroid/telephony/TelephonyManager.getDeviceId()Ljava/lang/String;
+Landroid/app/ProgressDialog.show(Landroid/content/Context; Ljava/lang/CharSequence; Ljava/lang/CharSequence; Z Z)Landroid/app/ProgressDialog;
+Landroid/telephony/gsm/GsmCellLocation.getLac()I
+Landroid/content/Intent.addFlags(I)Landroid/content/Intent;
+Landroid/content/SharedPreferences.edit()Landroid/content/SharedPreferences$Editor;
+Ljava/util/List.add(Ljava/lang/Object;)Z
+Ljava/util/List.size()I
+Landroid/webkit/JsPromptResult.confirm(Ljava/lang/String;)V
+Landroid/os/CountDownTimer.<init>(J J)V
+Ljava/lang/System.currentTimeMillis()J
+Ljava/net/HttpURLConnection.setRequestProperty(Ljava/lang/String; Ljava/lang/String;)V
+Ljava/lang/IllegalArgumentException.<init>(Ljava/lang/String;)V
+Landroid/content/Context.getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+Ljava/io/FileOutputStream.<init>(Ljava/io/File;)V
+Ljava/io/File.<init>(Ljava/lang/String;)V
+Ljava/lang/String.<init>([B Ljava/lang/String;)V
+Landroid/webkit/WebView.addJavascriptInterface(Ljava/lang/Object; Ljava/lang/String;)V
+Landroid/net/Uri.fromFile(Ljava/io/File;)Landroid/net/Uri;
+Ljava/util/Hashtable.<init>()V
+Ljava/io/DataOutputStream.writeBytes(Ljava/lang/String;)V
+Ljava/net/HttpURLConnection.getOutputStream()Ljava/io/OutputStream;
+Landroid/net/NetworkInfo.isConnected()Z
+Landroid/os/CountDownTimer.start()Landroid/os/CountDownTimer;
+Landroid/content/SharedPreferences$Editor.putString(Ljava/lang/String; Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
+Landroid/app/PendingIntent.getActivity(Landroid/content/Context; I Landroid/content/Intent; I)Landroid/app/PendingIntent;
+Ljava/net/HttpURLConnection.setRequestMethod(Ljava/lang/String;)V
+Landroid/widget/TextView.setText(Ljava/lang/CharSequence;)V
+Landroid/webkit/WebView.clearCache(Z)V
+Ljava/lang/Integer.valueOf(Ljava/lang/String;)Ljava/lang/Integer;
+Landroid/content/Intent.<init>(Ljava/lang/String;)V
+Ljava/lang/String.toString()Ljava/lang/String;
+Ljava/util/List.set(I Ljava/lang/Object;)Ljava/lang/Object;
+Landroid/app/Activity.onStart()V
+Landroid/telephony/TelephonyManager.getNetworkOperator()Ljava/lang/String;
+Landroid/os/Bundle.get(Ljava/lang/String;)Ljava/lang/Object;
+Landroid/webkit/WebView.loadData(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)V
+Landroid/content/Intent.getAction()Ljava/lang/String;
+Landroid/content/SharedPreferences$Editor.putBoolean(Ljava/lang/String; Z)Landroid/content/SharedPreferences$Editor;
+Ljava/lang/Long.parseLong(Ljava/lang/String;)J
+Landroid/app/Service.<init>()V
+Ljava/net/HttpURLConnection.connect()V
+Ljava/lang/String.valueOf(J)Ljava/lang/String;
+Landroid/app/Service.onDestroy()V
+Landroid/widget/ProgressBar.setProgress(I)V
+Lorg/xmlpull/v1/XmlPullParser.getText()Ljava/lang/String;
+Landroid/telephony/SmsMessage.createFromPdu([B)Landroid/telephony/SmsMessage;
+Ljava/lang/StringBuilder.toString()Ljava/lang/String;
+Landroid/telephony/SmsManager.sendTextMessage(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Landroid/app/PendingIntent; Landroid/app/PendingIntent;)V
+Landroid/webkit/WebView.getSettings()Landroid/webkit/WebSettings;
+Ljava/lang/StringBuilder.<init>()V
+Landroid/telephony/TelephonyManager.getLine1Number()Ljava/lang/String;
+Landroid/webkit/WebView.loadUrl(Ljava/lang/String;)V
+Ljava/lang/String.substring(I)Ljava/lang/String;
+Landroid/app/Activity.<init>()V
+Landroid/widget/Toast.makeText(Landroid/content/Context; Ljava/lang/CharSequence; I)Landroid/widget/Toast;
+Landroid/content/Context.getSharedPreferences(Ljava/lang/String; I)Landroid/content/SharedPreferences;
+Landroid/telephony/TelephonyManager.getSubscriberId()Ljava/lang/String;
+Ljava/io/FileOutputStream.write([B I I)V
+Landroid/content/Intent.<init>()V
+Landroid/content/Intent.<init>(Ljava/lang/String; Landroid/net/Uri;)V
+Ljava/net/HttpURLConnection.setDoInput(Z)V
+Ljava/net/HttpURLConnection.getResponseCode()I
+Ljava/lang/Object.<init>()V
+Landroid/content/Intent.getExtras()Landroid/os/Bundle;
+Ljava/lang/Object.getClass()Ljava/lang/Class;
+Lorg/xmlpull/v1/XmlPullParser.next()I
+Landroid/telephony/SmsMessage.getOriginatingAddress()Ljava/lang/String;
+Landroid/telephony/SmsMessage.getMessageBody()Ljava/lang/String;
+Landroid/content/SharedPreferences$Editor.putLong(Ljava/lang/String; J)Landroid/content/SharedPreferences$Editor;
+Landroid/webkit/WebChromeClient.<init>()V
+Lorg/xmlpull/v1/XmlPullParser.getAttributeCount()I
+Ljava/lang/String.valueOf(Ljava/lang/Object;)Ljava/lang/String;
+Landroid/telephony/TelephonyManager.getCellLocation()Landroid/telephony/CellLocation;
+Ljava/io/PrintStream.println(Ljava/lang/String;)V
+Landroid/content/SharedPreferences.getLong(Ljava/lang/String; J)J
+Ljava/io/DataOutputStream.flush()V
+Landroid/webkit/WebView.<init>(Landroid/content/Context;)V
+Ljava/io/InputStream.close()V
+Landroid/content/SharedPreferences.getBoolean(Ljava/lang/String; Z)Z
+Landroid/content/Intent.setDataAndType(Landroid/net/Uri; Ljava/lang/String;)Landroid/content/Intent;
+Ljava/util/Hashtable.containsKey(Ljava/lang/Object;)Z
+Landroid/widget/Button.setText(Ljava/lang/CharSequence;)V
+Ljava/lang/String.<init>([B I I Ljava/lang/String;)V
+Ljava/lang/System.getProperty(Ljava/lang/String;)Ljava/lang/String;
+Landroid/text/SpannableString.<init>(Ljava/lang/CharSequence;)V
+Ljava/lang/Character.<init>(C)V
+Lorg/xmlpull/v1/XmlPullParser.setInput(Ljava/io/InputStream; Ljava/lang/String;)V
+Landroid/app/Activity.getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+Landroid/os/Environment.getExternalStorageDirectory()Ljava/io/File;
+Landroid/widget/Toast.show()V
+Landroid/webkit/WebView.setWebChromeClient(Landroid/webkit/WebChromeClient;)V
+Landroid/text/style/UnderlineSpan.<init>()V
+Landroid/content/BroadcastReceiver.<init>()V
+Landroid/content/SharedPreferences.getString(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+Landroid/content/Context.sendBroadcast(Landroid/content/Intent;)V
+Ljava/io/InputStream.read([B I I)I
+Landroid/content/Intent.putExtra(Ljava/lang/String; Ljava/lang/String;)Landroid/content/Intent;
+Ljava/lang/Integer.parseInt(Ljava/lang/String;)I
+Landroid/widget/Button.setVisibility(I)V
+Ljava/net/HttpURLConnection.getInputStream()Ljava/io/InputStream;
+Ljava/lang/StringBuffer.toString()Ljava/lang/String;
+Ljava/lang/StringBuffer.<init>()V
+Ljava/lang/StringBuilder.append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+Landroid/app/Notification.<init>(I Ljava/lang/CharSequence; J)V
+Ljava/io/StringReader.<init>(Ljava/lang/String;)V
+Ljava/lang/Integer.intValue()I
+Ljava/net/URL.openConnection()Ljava/net/URLConnection;
+Ljava/lang/String.charAt(I)C
+Landroid/content/Intent$ShortcutIconResource.fromContext(Landroid/content/Context; I)Landroid/content/Intent$ShortcutIconResource;
+Ljava/lang/StringBuffer.append(C)Ljava/lang/StringBuffer;
+Landroid/app/AlarmManager.set(I J Landroid/app/PendingIntent;)V
+Ljava/lang/String.toCharArray()[C
+Landroid/telephony/gsm/GsmCellLocation.getCid()I
+Landroid/content/Context.startService(Landroid/content/Intent;)Landroid/content/ComponentName;
+Lorg/xmlpull/v1/XmlPullParser.getName()Ljava/lang/String;
+Ljava/util/Hashtable.get(Ljava/lang/Object;)Ljava/lang/Object;
+Landroid/text/SpannableString.setSpan(Ljava/lang/Object; I I I)V
+Landroid/text/SpannableString.length()I
+Ljava/lang/String.equals(Ljava/lang/Object;)Z
+Lorg/xmlpull/v1/XmlPullParserFactory.newInstance()Lorg/xmlpull/v1/XmlPullParserFactory;
+Ljava/lang/Exception.printStackTrace()V
+Landroid/content/Intent.<init>(Landroid/content/Context; Ljava/lang/Class;)V
+Landroid/content/Intent.getStringExtra(Ljava/lang/String;)Ljava/lang/String;
+Ljava/lang/String.substring(I I)Ljava/lang/String;
+Ljava/net/HttpURLConnection.setUseCaches(Z)V
+Landroid/app/Service.onStart(Landroid/content/Intent; I)V
+Ljava/io/PrintStream.print(Ljava/lang/String;)V
+Ljava/util/ArrayList.<init>()V
+Landroid/content/SharedPreferences$Editor.commit()Z
+Ljava/lang/String.startsWith(Ljava/lang/String;)Z
+Ljava/lang/Thread.<init>(Ljava/lang/Runnable;)V
+Ljava/util/Hashtable.put(Ljava/lang/Object; Ljava/lang/Object;)Ljava/lang/Object;
+Landroid/content/Intent.putExtra(Ljava/lang/String; Z)Landroid/content/Intent;
+Ljava/lang/StringBuffer.append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+Lorg/xmlpull/v1/XmlPullParser.getAttributeValue(I)Ljava/lang/String;
+Ljava/lang/Class.getResourceAsStream(Ljava/lang/String;)Ljava/io/InputStream;
+Ljava/lang/Character.toString()Ljava/lang/String;
+Landroid/app/PendingIntent.getBroadcast(Landroid/content/Context; I Landroid/content/Intent; I)Landroid/app/PendingIntent;
+Lorg/xmlpull/v1/XmlPullParserFactory.newPullParser()Lorg/xmlpull/v1/XmlPullParser;
+Ljava/lang/StringBuffer.append(Ljava/lang/Object;)Ljava/lang/StringBuffer;
+Lorg/xmlpull/v1/XmlPullParser.getAttributeName(I)Ljava/lang/String;
+Ljava/util/List.get(I)Ljava/lang/Object;
+Landroid/net/ConnectivityManager.getActiveNetworkInfo()Landroid/net/NetworkInfo;
+Landroid/os/Handler.post(Ljava/lang/Runnable;)Z
+Ljava/io/File.<init>(Ljava/io/File; Ljava/lang/String;)V
+Landroid/telephony/SmsManager.getDefault()Landroid/telephony/SmsManager;
+Ljava/io/InputStream.read()I
+Landroid/widget/ImageView.setImageResource(I)V
+Landroid/app/ProgressDialog.dismiss()V
+Landroid/widget/Toast.setGravity(I I I)V
+Ljava/io/File.mkdirs()Z
+Landroid/app/Activity.onConfigurationChanged(Landroid/content/res/Configuration;)V
+Ljava/lang/Math.min(I I)I

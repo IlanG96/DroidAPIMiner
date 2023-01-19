@@ -251,7 +251,6 @@ def detect_content(x):
 
 
 def data_flow_result(x):
-    result = []
     a, d, dx = AnalyzeAPK(x)
     a1 = detect_connection(dx)
     a2 = detect_content(dx)
@@ -262,7 +261,7 @@ def data_flow_result(x):
     return result
 
 
-if __name__ == "__main__":
-    apk_dir = 'SampleApplication.apk'
-    print(data_flow_result('SampleApplication.apk'))
-    print(data_flow_result('0a7f.apk'))
+# if __name__ == "__main__":
+#     apk_dir = 'SampleApplication.apk'
+#     print(data_flow_result('SampleApplication.apk'))
+#     print(data_flow_result('0a7f.apk'))

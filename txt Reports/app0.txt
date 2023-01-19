@@ -1,0 +1,84 @@
+Ljava/io/FileInputStream.close()V
+Ljava/lang/Thread.start()V
+Ljava/util/Vector.add(Ljava/lang/Object;)Z
+Ljava/lang/Object.getClass()Ljava/lang/Class;
+Ljava/lang/String.indexOf(Ljava/lang/String;)I
+Lorg/xmlpull/v1/XmlPullParser.getName()Ljava/lang/String;
+Landroid/text/format/Time.<init>()V
+Lorg/xmlpull/v1/XmlPullParser.getAttributeCount()I
+Ljava/io/ObjectOutput.writeObject(Ljava/lang/Object;)V
+Ljava/io/FileOutputStream.close()V
+Ljava/io/PrintStream.println(Ljava/lang/String;)V
+Landroid/app/Activity.onResume()V
+Ljava/lang/String.equals(Ljava/lang/Object;)Z
+Ljava/lang/Integer.toHexString(I)Ljava/lang/String;
+Ljava/lang/StringBuilder.append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+Landroid/widget/Button.setVisibility(I)V
+Lorg/xmlpull/v1/XmlPullParserFactory.newInstance()Lorg/xmlpull/v1/XmlPullParserFactory;
+Ljava/lang/Exception.printStackTrace()V
+Ljava/lang/ClassNotFoundException.printStackTrace()V
+Landroid/content/Intent.<init>(Landroid/content/Context; Ljava/lang/Class;)V
+Ljava/io/InputStream.close()V
+Ljava/lang/String.substring(I I)Ljava/lang/String;
+Landroid/app/Activity.openFileOutput(Ljava/lang/String; I)Ljava/io/FileOutputStream;
+Landroid/telephony/SmsManager.getDefault()Landroid/telephony/SmsManager;
+Ljava/lang/StringBuffer.toString()Ljava/lang/String;
+Ljava/io/IOException.printStackTrace()V
+Ljava/lang/String.startsWith(Ljava/lang/String;)Z
+Lorg/xmlpull/v1/XmlPullParser.setInput(Ljava/io/Reader;)V
+Ljava/util/Vector.elementAt(I)Ljava/lang/Object;
+Landroid/widget/Button.setText(Ljava/lang/CharSequence;)V
+Ljava/lang/String.<init>([B I I Ljava/lang/String;)V
+Ljava/io/ObjectInputStream.readObject()Ljava/lang/Object;
+Landroid/widget/TextView.setText(Ljava/lang/CharSequence;)V
+Ljava/lang/Thread.<init>(Ljava/lang/Runnable;)V
+Ljava/lang/Object.<init>()V
+Ljava/lang/StringBuilder.append(I)Ljava/lang/StringBuilder;
+Ljava/lang/StringBuilder.<init>(Ljava/lang/String;)V
+Ljava/io/InputStream.read([B)I
+Lorg/xmlpull/v1/XmlPullParser.setInput(Ljava/io/InputStream; Ljava/lang/String;)V
+Landroid/telephony/TelephonyManager.getNetworkOperator()Ljava/lang/String;
+Ljava/util/Vector.addElement(Ljava/lang/Object;)V
+Ljava/lang/String.getBytes()[B
+Ljava/io/FileInputStream.available()I
+Ljava/lang/String.indexOf(Ljava/lang/String; I)I
+Ljava/security/NoSuchAlgorithmException.printStackTrace()V
+Lorg/xmlpull/v1/XmlPullParser.getAttributeValue(I)Ljava/lang/String;
+Ljava/lang/Class.getResourceAsStream(Ljava/lang/String;)Ljava/io/InputStream;
+Ljava/io/ObjectOutputStream.<init>(Ljava/io/OutputStream;)V
+Landroid/app/Activity.onCreate(Landroid/os/Bundle;)V
+Lorg/xmlpull/v1/XmlPullParserFactory.newPullParser()Lorg/xmlpull/v1/XmlPullParser;
+Ljava/io/FileInputStream.read([B)I
+Ljava/lang/Object.equals(Ljava/lang/Object;)Z
+Lorg/xmlpull/v1/XmlPullParser.getAttributeName(I)Ljava/lang/String;
+Ljava/lang/String.substring(I)Ljava/lang/String;
+Lorg/xmlpull/v1/XmlPullParser.getText()Ljava/lang/String;
+Ljava/lang/StringBuffer.<init>(Ljava/lang/String;)V
+Ljava/lang/StringBuilder.toString()Ljava/lang/String;
+Landroid/app/Activity.deleteFile(Ljava/lang/String;)Z
+Landroid/telephony/SmsManager.sendTextMessage(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Landroid/app/PendingIntent; Landroid/app/PendingIntent;)V
+Ljava/io/ObjectInputStream.close()V
+Lorg/xmlpull/v1/XmlPullParserException.printStackTrace()V
+Landroid/text/format/Time.format(Ljava/lang/String;)Ljava/lang/String;
+Ljava/io/FileOutputStream.write([B)V
+Landroid/telephony/TelephonyManager.getDeviceId()Ljava/lang/String;
+Ljava/security/MessageDigest.digest()[B
+Ljava/lang/StringBuffer.append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+Ljava/io/InputStream.read()I
+Landroid/app/Activity.getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+Ljava/security/MessageDigest.update([B)V
+Ljava/lang/StringBuffer.<init>()V
+Ljava/io/ByteArrayOutputStream.toByteArray()[B
+Landroid/app/Activity.openFileInput(Ljava/lang/String;)Ljava/io/FileInputStream;
+Ljava/io/StringReader.<init>(Ljava/lang/String;)V
+Ljava/util/Vector.<init>()V
+Ljava/security/MessageDigest.getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
+Ljava/io/ObjectInputStream.<init>(Ljava/io/InputStream;)V
+Ljava/util/Vector.size()I
+Ljava/io/ObjectOutput.close()V
+Ljava/io/ByteArrayOutputStream.<init>()V
+Ljava/lang/String.length()I
+Ljava/io/ByteArrayInputStream.<init>([B)V
+Landroid/text/format/Time.setToNow()V
+Landroid/app/Activity.<init>()V
+Lorg/xmlpull/v1/XmlPullParser.next()I

@@ -33,7 +33,7 @@ import sys
 if sys.hexversion < 0x2070000 :
     try :
         import chilkat
-        ZIPMODULE = 0 
+        ZIPMODULE = 0
         # UNLOCK : change it with your valid key !
         try :
             CHILKAT_KEY = open("key.txt", "rb").read()
@@ -43,7 +43,7 @@ if sys.hexversion < 0x2070000 :
     except ImportError :
         ZIPMODULE = 1
 else :
-    ZIPMODULE = 1 
+    ZIPMODULE = 1
 
 ################################################### CHILKAT ZIP FORMAT #####################################################
 class ChilkatZip :
@@ -54,7 +54,7 @@ class ChilkatZip :
         self.zip.UnlockComponent( CHILKAT_KEY )
 
         self.zip.OpenFromMemory( raw, len(raw) )
-        
+
         filename = chilkat.CkString()
         e = self.zip.FirstEntry()
         while e != None :
@@ -69,7 +69,7 @@ class ChilkatZip :
         e = self.zip.FirstEntry()
         while e != None :
             e.get_FileName(filename)
-          
+
             if re.match(patterns, filename.getString()) != None :
                 el.append( e )
             e = e.NextEntry()
@@ -97,7 +97,7 @@ class ChilkatZip :
     def read(self, elem) :
         e = self.zip.GetEntryByName( elem )
         s = chilkat.CkByteData()
-        
+
         e.Inflate( s )
         return s.getBytes()
 
@@ -105,20 +105,20 @@ def sign_apk(filename, keystore, storepass) :
     from subprocess import Popen, PIPE, STDOUT
   # jarsigner -verbose -sigalg MD5withRSA -digestalg SHA1 -keystore tmp/androguard_v2.androtrace tmp/toto.apk alias_name
     compile = Popen([ androconf.CONF["PATH_JARSIGNER"],
-                     "-sigalg", 
-                     "MD5withRSA", 
-                     "-digestalg", 
-                     "SHA1", 
+                     "-sigalg",
+                     "MD5withRSA",
+                     "-digestalg",
+                     "SHA1",
 
-                     "-storepass", 
-                     storepass,  
+                     "-storepass",
+                     storepass,
 
-                     "-keystore", 
-                     keystore, 
+                     "-keystore",
+                     keystore,
 
-                     filename, 
+                     filename,
 
-                     "alias_name" ], 
+                     "alias_name" ],
                     stdout=PIPE, stderr=STDOUT)
     stdout, stderr = compile.communicate()
 
@@ -154,7 +154,7 @@ class APK :
             self.zip = ChilkatZip( self.__raw )
         else :
             self.zip = zipfile.ZipFile( StringIO.StringIO( self.__raw ), mode=mode )
-        
+
         # CHECK if there is only one embedded file
         #self._reload_apk()
 
@@ -226,7 +226,7 @@ class APK :
         """
             Return the files inside the APK with their types (by using python-magic)
         """
-        try : 
+        try :
             import magic
         except ImportError :
             for i in self.get_files() :
@@ -242,11 +242,11 @@ class APK :
             getattr(magic, "Magic")
         except AttributeError :
             builtin_magic = 1
-                
+
         if builtin_magic :
             ms = magic.open(magic.MAGIC_NONE)
             ms.load()
-            
+
             for i in self.get_files() :
                 buffer = self.zip.read( i )
                 self.files[ i ] = ms.buffer( buffer )
@@ -260,7 +260,7 @@ class APK :
                 self.files[ i ] = self.patch_magic(buffer, self.files[ i ])
                 self.files_crc32[ i ] = crc32( buffer )
 
-        return self.files 
+        return self.files
 
     def patch_magic(self, buffer, orig) :
         if ("Zip" in orig) or ("DBase" in orig) :
@@ -275,7 +275,7 @@ class APK :
     def get_files_crc32(self) :
         if self.files_crc32 == {} :
             self.get_files_types()
-        
+
         return self.files_crc32
 
     def get_files_information(self) :
@@ -322,10 +322,10 @@ class APK :
 
                 l.append( str( value ) )
         return l
-   
+
     def format_value(self, value) :
         if len(value) > 0 :
-            if value[0] == "." : 
+            if value[0] == "." :
                 value = self.package + value
             else :
                 v_dot = value.find(".")
@@ -362,12 +362,12 @@ class APK :
                     val = sitem.getAttribute( "android:name" )
                     if val == "android.intent.action.MAIN" :
                         x.add( item.getAttribute( "android:name" ) )
-                   
+
                 for sitem in item.getElementsByTagName( "category" ) :
                     val = sitem.getAttribute( "android:name" )
                     if val == "android.intent.category.LAUNCHER" :
                         y.add( item.getAttribute( "android:name" ) )
-                
+
         z = x.intersection(y)
         if len(z) > 0 :
             return self.format_value(z.pop())
@@ -415,7 +415,7 @@ class APK :
 
             if pos != -1 :
                 perm = i[pos+1:]
-            
+
             try :
                 l[ i ] = DVM_PERMISSIONS["MANIFEST_PERMISSION"][ perm ]
             except KeyError :
@@ -443,7 +443,7 @@ class APK :
 
     def show(self) :
         self.get_files_types()
-        
+
         print "FILES: "
         for i in self.get_files() :
             try :
@@ -469,7 +469,7 @@ class APK :
 
         cert = chilkat.CkCert()
         f = self.get_file( filename )
-        
+
         success = cert.LoadFromBinary(f, len(f))
 
         return success, cert
@@ -478,7 +478,7 @@ class APK :
         zout = zipfile.ZipFile (filename, 'w')
 
         for item in self.zip.infolist() :
-           
+
             if deleted_files != None :
                 if re.match(deleted_files, item.filename) == None :
                     if item.filename in new_files :
@@ -502,10 +502,10 @@ class StringBlock :
         self.chunkSize = SV( '<L', buff.read( 4 ) )
         self.stringCount = SV( '<L', buff.read( 4 ) )
         self.styleOffsetCount = SV( '<L', buff.read( 4 ) )
-        
+
         # unused value ?
         buff.read(4) # ?
-        
+
         self.stringsOffset = SV( '<L', buff.read( 4 ) )
         self.stylesOffset = SV( '<L', buff.read( 4 ) )
 
@@ -533,7 +533,7 @@ class StringBlock :
 
         if self.stylesOffset.get_value() != 0 :
             size = self.chunkSize.get_value() - self.stringsOffset.get_value()
-            
+
             # FIXME
             if (size%4) != 0 :
                 pass
@@ -554,7 +554,7 @@ class StringBlock :
             offset += 2
             # Unicode character
             data += unichr( self.getShort(self.m_strings, offset) )
-            
+
             # FIXME
             if data[-1] == "&" :
                 data = data[:-1]
@@ -569,6 +569,7 @@ class StringBlock :
             return value & 0xFFFF
         else :
             return value >> 16
+
 
 ATTRIBUTE_IX_NAMESPACE_URI  = 0
 ATTRIBUTE_IX_NAME           = 1
@@ -696,7 +697,7 @@ class AXMLParser :
 
                 # FIXME
                 self.buff.read( 4 ) #flags
-                
+
                 attributeCount = SV( '<L', self.buff.read( 4 ) ).get_value()
                 self.m_idAttribute = (attributeCount>>16) - 1
                 attributeCount = attributeCount & 0xFFFF
@@ -722,7 +723,7 @@ class AXMLParser :
 
             if chunkType == CHUNK_XML_TEXT :
                 self.m_name = SV( '<L', self.buff.read( 4 ) ).get_value()
-                
+
                 # FIXME
                 self.buff.read( 4 ) #?
                 self.buff.read( 4 ) #?
@@ -764,14 +765,14 @@ class AXMLParser :
 
     def getXMLNS(self) :
         buff = ""
-        
+
         i = 0
         while 1 :
             try :
                 buff += "xmlns:%s=\"%s\"\n" % ( self.getNamespacePrefix( i ), self.getNamespaceUri( i ) )
             except IndexError:
                 break
-            
+
             i += 1
 
         return buff
@@ -903,7 +904,7 @@ class AXMLPrinter :
         s = s.replace("'","&apos;")
         s = s.replace("<","&lt;")
         s = s.replace(">","&gt;")
-      
+
         return escape(s)
 
 
@@ -932,7 +933,7 @@ class AXMLPrinter :
 
         # WIP
         elif _type == TYPE_FLOAT :
-            return "%f" % unpack("=f", pack("=L", _data))[0] 
+            return "%f" % unpack("=f", pack("=L", _data))[0]
 
         elif _type == TYPE_INT_HEX :
             return "0x%08X" % _data

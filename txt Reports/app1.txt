@@ -1,0 +1,3 @@
+Ljava/lang/String.append[ls]
+Ljava/lang/StringBuilder.append[ls]
+DataFlow: 2

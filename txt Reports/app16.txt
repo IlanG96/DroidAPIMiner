@@ -1,0 +1,70 @@
+Ljava/lang/String.<init>([B Ljava/lang/String;)V
+Ljava/lang/StringBuffer.length()I
+Ljava/lang/Thread.start()V
+Landroid/net/Uri.parse(Ljava/lang/String;)Landroid/net/Uri;
+Landroid/widget/Button.setText(Ljava/lang/CharSequence;)V
+Ljava/lang/reflect/Field.get(Ljava/lang/Object;)Ljava/lang/Object;
+Ljava/lang/String.valueOf(Ljava/lang/Object;)Ljava/lang/String;
+Ljava/lang/String.split(Ljava/lang/String;)[Ljava/lang/String;
+Ljava/lang/StringBuffer.<init>()V
+Ljava/io/PrintStream.println(Ljava/lang/String;)V
+Landroid/content/SharedPreferences$Editor.putBoolean(Ljava/lang/String; Z)Landroid/content/SharedPreferences$Editor;
+Landroid/content/SharedPreferences$Editor.putString(Ljava/lang/String; Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
+Ljava/lang/String.startsWith(Ljava/lang/String;)Z
+Ljava/lang/StringBuilder.append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+Landroid/widget/Button.setVisibility(I)V
+Ljava/lang/Exception.printStackTrace()V
+Ljava/util/Vector.<init>()V
+Ljava/lang/StringBuffer.append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+Ljava/io/InputStream.close()V
+Landroid/content/SharedPreferences.getBoolean(Ljava/lang/String; Z)Z
+Ljava/util/Vector.elementAt(I)Ljava/lang/Object;
+Ljava/util/List.set(I Ljava/lang/Object;)Ljava/lang/Object;
+Ljava/lang/Boolean.valueOf(Z)Ljava/lang/Boolean;
+Landroid/content/SharedPreferences$Editor.commit()Z
+Ljava/util/Vector.copyInto([Ljava/lang/Object;)V
+Ljava/lang/Thread.<init>(Ljava/lang/Runnable;)V
+Ljava/lang/StringBuilder.append(J)Ljava/lang/StringBuilder;
+Ljava/lang/StringBuilder.<init>(Ljava/lang/String;)V
+Ljava/lang/Integer.equals(Ljava/lang/Object;)Z
+Landroid/telephony/TelephonyManager.getNetworkOperator()Ljava/lang/String;
+Ljava/util/Vector.addElement(Ljava/lang/Object;)V
+Ljava/lang/reflect/Method.invoke(Ljava/lang/Object; [Ljava/lang/Object;)Ljava/lang/Object;
+Ljava/lang/StringBuilder.append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+Ljava/lang/String.length()I
+Ljava/lang/Class.getResourceAsStream(Ljava/lang/String;)Ljava/io/InputStream;
+Ljava/lang/Long.parseLong(Ljava/lang/String;)J
+Landroid/content/SharedPreferences.getString(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+Landroid/widget/TextView.setText(Ljava/lang/CharSequence;)V
+Ljava/util/Vector.removeAllElements()V
+Ljava/lang/System.gc()V
+Ljava/util/List.add(Ljava/lang/Object;)Z
+Ljava/io/InputStream.read([B I I)I
+Ljava/lang/StringBuilder.toString()Ljava/lang/String;
+Ljava/lang/Object.equals(Ljava/lang/Object;)Z
+Ljava/util/ArrayList.<init>()V
+Ljava/lang/StringBuffer.setLength(I)V
+Landroid/app/Activity.onCreate(Landroid/os/Bundle;)V
+Ljava/lang/String.equals(Ljava/lang/Object;)Z
+Ljava/lang/Integer.<init>(I)V
+Ljava/lang/Class.getMethod(Ljava/lang/String; [Ljava/lang/Class;)Ljava/lang/reflect/Method;
+Ljava/io/InputStream.read()I
+Landroid/content/SharedPreferences.edit()Landroid/content/SharedPreferences$Editor;
+Ljava/util/List.get(I)Ljava/lang/Object;
+Landroid/widget/ImageView.setImageResource(I)V
+Ljava/util/List.size()I
+Ljava/io/InputStream.skip(J)J
+Ljava/lang/System.currentTimeMillis()J
+Ljava/lang/Class.getField(Ljava/lang/String;)Ljava/lang/reflect/Field;
+Ljava/util/Vector.removeElement(Ljava/lang/Object;)Z
+Landroid/content/Intent.<init>(Ljava/lang/String; Landroid/net/Uri;)V
+Ljava/lang/Integer.intValue()I
+Ljava/lang/StringBuffer.toString()Ljava/lang/String;
+Ljava/util/Vector.size()I
+Ljava/lang/StringBuffer.append(C)Ljava/lang/StringBuffer;
+Ljava/lang/Class.forName(Ljava/lang/String;)Ljava/lang/Class;
+Ljava/lang/StringBuffer.<init>(I)V
+Ljava/lang/Object.getClass()Ljava/lang/Class;
+Landroid/app/Activity.<init>()V
+Ljava/lang/Integer.valueOf(I)Ljava/lang/Integer;
+Ljava/lang/Object.<init>()V
